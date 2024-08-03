@@ -304,3 +304,89 @@ tbody tr:nth-child(even) {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .search-container {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .search-container input {
+        width: 150px;
+    }
+
+    .search-container .search-btn {
+        padding: 5px;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    .budget-input, .add-expense, .ideal-plan, .charts, .increase-budget {
+        padding: 0.5em;
+    }
+
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .alert {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .navbar {
+        padding: 5px;
+    }
+
+    .search-container input {
+        width: 100px;
+    }
+
+    .search-container .search-btn {
+        padding: 3px;
+    }
+
+    .budget-input, .add-expense, .ideal-plan, .charts, .increase-budget {
+        padding: 0.5em;
+    }
+
+    .alert {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
