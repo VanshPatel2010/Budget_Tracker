@@ -131,6 +131,7 @@ const BudgetTracker: React.FC = () => {
         <h5>Track your expenses seamlessly with our Budget Tracker..</h5>
         <h1>Budget Bliss</h1>
       </header>
+
       <main>
         <section className="budget-input">
           <h2>Set Your Budget</h2>
