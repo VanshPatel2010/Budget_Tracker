@@ -141,6 +141,7 @@ const BudgetTracker: React.FC = () => {
               type="number"
               id="total-budget"
               value={totalBudget}
+              style={{color: 'white'}}
               onChange={(e) => setTotalBudget(parseFloat(e.target.value))}
               required
             />
